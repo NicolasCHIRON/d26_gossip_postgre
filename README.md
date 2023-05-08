@@ -1,24 +1,34 @@
-# README
+# The Gossip Project
+[![forthebadge](https://forthebadge.com/images/badges/made-with-ruby.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/as-seen-on-tv.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+### THP D26
 
-* Ruby version
+Learning RoR(Ruby on Rails) with our previous database to show the app in website with html views
 
-* System dependencies
 
-* Configuration
+It's like Facebook but only with gossips! You will enjoy this !
 
-* Database creation
+* Creating and modeling our models
+* Managing migration to play with our tables
+* Coding views(landing pages), roads and controllers
 
-* Database initialization
+## Installation
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+* 'Git clone' #cloning this repo
+* bundle install #installing the Ruby's gems
 
-* Deployment instructions
 
-* ...
+## Usage
+
+* rails db:create #create database
+* rails db:migrate #put all database tables to up status
+* rails db:seed #generating a random database with faker's gem
+* rails s #turning on the server
+
+## Requirements
+
+Ruby 3.0.0

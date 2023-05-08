@@ -74,7 +74,7 @@
                     <%= gossip.user.first_name %> <%= gossip.user.last_name %>
                   </p>
                   <button type="button" class="spec_btn"><%= link_to "Voir le Gossip", gossip_path(gossip) %></button>
-                  <button type="button" class="spec_btn"><%= link_to "A propos de l'auteur", gossip_path(gossip) %></button>
+                  <button type="button" class="spec_btn"><%= link_to "A propos de l'auteur", user_path(gossip.user) %></button>
                 </div>
               </div>
             </div>

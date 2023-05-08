@@ -1,0 +1,7 @@
+<h1>Bienvenue</h1>
+
+<p> Vous êtes bien sur la page du potin n°<%= params[:id] %></p>
+<p> Auteur du potin : <%= @gossip.user.first_name %> <%= @gossip.user.last_name %>      <%= link_to "==> Clique ici pour plus d'informations sur l'auteur (sa vie, ses rêves, ...)", user_path(@gossip.user) %> </p>
+<p> Titre du potin : <%= @gossip.title %></p>
+<p> Contenu du potin : <%= @gossip.content %></p>
+<p> Date de création du potin : <%= @gossip.created_at %></p>
